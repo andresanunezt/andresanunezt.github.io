@@ -1,0 +1,195 @@
+.container {
+  background: cornflowerblue;
+  padding: 30px auto;
+}
+
+.heading-container {
+  color: #1f2937;
+  background: lavender;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.link-box {
+  color: #1f2937;
+  margin: 0 46px 0 146px;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  margin: 3px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #1f2937;
+}
+
+.section-one-sub {
+  align-items: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.main-img {
+  height: 300px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 20%;
+}
+
+.section-one-heading {
+  padding: 50px 50px 10px 0;
+}
+
+.section-one-paragraph {
+  max-width: 350px;
+  padding-right: 20px;
+}
+
+.section-two-container {
+  background: bisque;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.project-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  border-color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
+.section-two-heading {
+  align-self: center;
+  padding: 30px 0;
+}
+
+.project-pics {
+  padding: 10px;
+}
+
+.section-four {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.section-four-text-div {
+  border-radius: 170%;
+  color: white;
+  background-color: #3882f6;
+  /* min-width: 500px; */
+  text-align: center;
+  padding: 36px;
+}
+
+.technologies-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts-link-box {
+  color: #1f2937;
+  margin: 0 46px 0 146px;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: fit-content;
+    margin: 10px;
+    background: bisque;
+    text-align: center;
+  }
+
+  .container {
+    background-color: bisque;
+  }
+
+  .technologies-links {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .main-img {
+    border-radius: 40%;
+    margin: 0;
+  }
+
+  .link-box {
+    margin: 0;
+    font-size: 18px;
+  }
+  .section-one-sub {
+    flex-direction: column-reverse;
+  }
+
+  .section-one-heading {
+    padding: 50px 0 10px 0;
+  }
+
+  .section-one-paragraph {
+    padding: 0;
+  }
+
+  .section-one-text {
+    color: black;
+  }
+  .section-two-heading {
+    font-size: 18px;
+  }
+  .project-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .section-four {
+    background-color: bisque;
+    padding-top: 0;
+  }
+  .contacts-link-box {
+    margin: 0;
+    color: #1f2937;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
